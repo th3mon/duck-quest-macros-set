@@ -1,0 +1,26 @@
+{
+  "name": "duck-quest-macros-set",
+  "version": "0.0.1",
+  "description": "Set of macros for the Duck Quest",
+  "main": "index.js",
+  "scripts": {
+    "watch": "vite build -w",
+    "build": "tsc && vite build",
+    "build:ci": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "keywords": [
+    "FoundryVTT"
+  ],
+  "author": "7h3m0n",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
+    "jest": "^29.7.0",
+    "sass": "^1.74.1",
+    "typescript": "^5.4.4",
+    "vitest": "^1.4.0"
+  }
+}
