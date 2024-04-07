@@ -1,3 +1,5 @@
+import { rollDice } from './roll-dice';
+
 export type Macro = 'roll-dice';
 
 export enum MacroType {
@@ -7,7 +9,7 @@ export enum MacroType {
 export async function main(macro: Macro) {
   switch (macro) {
     case MacroType.RollDice:
-      throw new Error('Not implemented');
+      return rollDice();
 
     default:
       // TODO: Create meaningful error message
